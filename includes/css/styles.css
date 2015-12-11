@@ -28,16 +28,40 @@ Notes:	 Hand coded for Udemy.com
 #searchInput{
   width:200px;
 }
+.navbar{
+  background:white;
+}
 .navigation{
   padding-top: 10px;
+  background: green;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navigation img
+{
+  padding-left:20px;
+}
+.navigation a{
+  font-size: 18px;
 }
 .navbar-nav{
-  padding-top: 5px;
+  padding-top: 12px;
   padding-left: 20px;
+}
+.navbar-nav ul.dropdown-menu{
+  background:green;
+}
+.navbar-nav li a
+{
+  color:white;
+}
+.navbar-nav li a:hover
+{
+  color:blue;
 }
 .navbar-form{
   padding-left: 10px;
-  padding-top: 5px;
+  padding-top: 12px;
 }
 
 /* --------------------------------------
