@@ -25,9 +25,21 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   
-   
-   
+#searchInput{
+  width:200px;
+}
+.navigation{
+  padding-top: 10px;
+}
+.navbar-nav{
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.navbar-form{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -46,15 +58,15 @@ Notes:	 Hand coded for Udemy.com
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
+
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
+
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	
+
 }
