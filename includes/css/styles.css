@@ -14,12 +14,81 @@ Notes:	 Hand coded for Udemy.com
    Layout
    -------------------------------------- */
 
+#features{
+  text-align: center;
+}
+
+#features img{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+#cool{
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none !important;
+}
+
+#para p{
+  text-align:justify;
+}
+
+.tabs-content, .thumb{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footercon{
+  background: black;
+}
+
+footer a,h3,h6,address,span,list-ss,li{
+  color:white;
+}
+
+header a{
+  color:white;
+}
+
+.list-item{
+  color:white;
+}
+
+.list-ss{
+  margin-top: 10px;
+}
+
+.list-aaa{
+  margin-top: 20px;
+}
+
 
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
+body{
+  -webkit-font-smoothing : antialiased;
+  text-rendering: optimizeLegibility;
+}
 
+h1,h2,h3,h4{
+  text-align: center !important;
+  text-transform: uppercase !important;
+}
+
+.well .page-header{
+  margin-top:0;
+}
+
+.well .page-header h1{
+  margin-top:0;
+}
 
 
 /* --------------------------------------
@@ -40,7 +109,6 @@ a{
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
-  color:white;
 }
 
 .navbar-default .navbar-nav>.active>a{
@@ -50,6 +118,7 @@ a{
 
 a:hover{
   color:red;
+  text-decoration: none;
 }
 
 .navbar-brand{
@@ -65,17 +134,16 @@ a:hover{
 }
 
 .navbar-default .navbar-brand {
-    color: white;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.navbar-nav li a
+.top-navbar li a
 {
-  color:blue;
+  color:white;
 }
 
-.navbar-nav li a:hover
+.top-navbar li a:hover
 {
   color:red;
 }
@@ -85,7 +153,7 @@ a:hover{
   background:black;
 }
 
-.navbar-nav ul.dropdown-menu{
+.top-navbar ul.dropdown-menu{
   background:black;
 }
 
@@ -98,30 +166,19 @@ a:hover{
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-#myCarousel{
-  margin-top: 90px;
-}
 
-#myCarousel .item{
-  height:400px;
-}
-
-#slide1 {
-  background: url("./../../images/cover1medium.jpg") top center no-repeat;
-}
-
-#slide2{
-  background: url("./../../images/cover2medium.jpg") top center no-repeat;
-}
-
-#slide3{
-  background: url("./../../images/cover3medium.jpg") top center no-repeat;
-}
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+.alert{
+  margin-top: 20px;
+  display:none;
+}
 
+.well{
+  margin: 20px 0;
+}
 
 
 /* --------------------------------------
@@ -130,21 +187,7 @@ a:hover{
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-  #myCarousel .item{
-    height:310px;
-  }
 
-  #slide1 {
-    background: url("./../../images/cover1small.jpg") top center no-repeat;
-  }
-
-  #slide2{
-    background: url("./../../images/cover2small.jpg") top center no-repeat;
-  }
-
-  #slide3{
-    background: url("./../../images/cover3small.jpg") top center no-repeat;
-  }
 
 }
 
@@ -158,20 +201,5 @@ a:hover{
 /* Large desktop */
 @media (min-width: 1200px) {
 
-  #myCarousel .item{
-    height:502px;
-  }
-
-  #slide1 {
-    background: url("./../../images/cover1large.jpg") top center no-repeat;
-  }
-
-  #slide2{
-    background: url("./../../images/cover2large.jpg") top center no-repeat;
-  }
-
-  #slide3{
-    background: url("./../../images/cover3large.jpg") top center no-repeat;
-  }
 
 }
