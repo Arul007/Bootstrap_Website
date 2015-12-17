@@ -8,198 +8,185 @@ Updated: August 2013
 Notes:	 Hand coded for Udemy.com
 
 */
-
-
 /* --------------------------------------
    Layout
    -------------------------------------- */
 
-#features{
-  text-align: center;
+#features {
+    text-align: center;
 }
-
-#features img{
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-
+#features img {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
-
-#cool{
-  text-align: center;
+#cool {
+    text-align: center;
 }
-
 ul li {
-  list-style: none;
-  text-decoration: none !important;
+    list-style: none;
 }
-
-#para p{
-  text-align:justify;
+#para p {
+    text-align: justify;
 }
-
-.tabs-content, .thumb{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.tabs-content,
+.thumb {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-.footercon{
-  background: black;
+.footercon {
+    background: black;
 }
-
-footer a,h3,h6,address,span,list-ss,li{
-  color:white;
+footer a,
+h4,
+h6,
+address,
+span,
+list-ss,
+li {
+    color: white;
 }
-
-header a{
-  color:white;
+#goal {
+    color: white;
 }
-
-.list-item{
-  color:white;
+.lead {
+    text-align: center;
 }
-
-.list-ss{
-  margin-top: 10px;
+#black {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: grey;
 }
-
-.list-aaa{
-  margin-top: 20px;
+#margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-
-
-
+#logo {
+    color: white;
+    font-size: 22px;
+}
+.tab-content {
+    margin-top: 15px;
+}
+.list-item {
+    color: white;
+}
+.list-ss {
+    margin-top: 10px;
+}
+.list-aaa {
+    margin-top: 20px;
+}
 /* --------------------------------------
    Typography
    -------------------------------------- */
-body{
-  -webkit-font-smoothing : antialiased;
-  text-rendering: optimizeLegibility;
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
-
-h1,h2,h3,h4{
-  text-align: center !important;
-  text-transform: uppercase !important;
+h1,
+h2,
+h3,
+h4 {
+    text-align: center !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
 }
-
-.well .page-header{
-  margin-top:0;
+.well .page-header {
+    margin-top: 0;
 }
-
-.well .page-header h1{
-  margin-top:0;
+.well .page-header h1 {
+    margin-top: 0;
 }
-
-
+.thumbnail>img {
+    margin-top: 10px;
+}
 /* --------------------------------------
    Navbar
    -------------------------------------- */
 
-.navbar-form{
-  padding-top: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
-  }
-
-#searchInput{
-  width:120px;
+.navbar-form {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-
-a{
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
+#searchInput {
+    width: 120px;
 }
-
-.navbar-default .navbar-nav>.active>a{
-    color:lightgreen;
-    background-color:grey;
+a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-
-a:hover{
-  color:red;
-  text-decoration: none;
+.navbar-default .navbar-nav>.active>a {
+    color: lightgreen;
+    background-color: grey;
 }
-
-.navbar-brand{
-  text-align: justify;
-  text-decoration: none;
-  color:white;
-  font-weight: bold;
-  font-size: 20px;
-  text-transform: uppercase;
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+.navbar .navbar-default {
+    position: fixed;
+}
+.navbar-brand {
+    text-align: justify;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 #logo:hover {
-  color:red;
+    color: red;
 }
-
 .navbar-default .navbar-brand {
     padding-left: 0px;
     padding-right: 0px;
 }
-
-.top-navbar li a
-{
-  color:white;
+.top-navbar li a {
+    color: white;
 }
-
-.top-navbar li a:hover
-{
-  color:red;
+.top-navbar li a:hover {
+    color: red;
 }
-
-.full-nav
-{
-  background:black;
+.full-nav {
+    background: black;
 }
-
-.top-navbar ul.dropdown-menu{
-  background:black;
+.top-navbar ul.dropdown-menu {
+    background: black;
 }
-
-.navbar-toggle
-{
-  top:18px;
+.navbar-toggle {
+    top: 18px;
 }
-
-
 /* --------------------------------------
    Carousel
    -------------------------------------- */
 
-
+#myCarousel {
+    margin-top: 100px;
+}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-.alert{
-  margin-top: 20px;
-  display:none;
+
+.alert {
+    margin-top: 20px;
+    display: none;
 }
-
-.well{
-  margin: 20px 0;
+.well {
+    margin: 20px 0;
 }
-
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
-
 /* Portrait & landscape phone */
-@media (max-width: 480px) {
 
-
-}
-
+@media (max-width: 480px) {}
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
 
-
-
-}
-
+@media (max-width: 768px) {}
 /* Large desktop */
-@media (min-width: 1200px) {
 
-
-}
+@media (min-width: 1200px) {}
