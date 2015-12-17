@@ -7,6 +7,7 @@
     <!-- Website Title & Description for Search Engine purposes -->
     <title>Goal.com - Latest Football News</title>
     <meta name="description" content="">
+		<meta charset="utf-8" />
 
     <!-- Mobile viewport optimized -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -45,7 +46,7 @@
                                 </li>
                                 <li><a href="#">La Liga</a>
                                 </li>
-                                <li><a href="#">Serie A</a</li>
+                                <li><a href="#">Serie A</a></li>
 							                  <li><a href="#">Bundesliga</a>
                                 </li>
                                 <li><a href="#">Ligue 1</a>
@@ -59,7 +60,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="#">Premier League News</a></li>
                                 <li><a href="#">Spanish News</a></li>
-                                <li><a href="#">Italy News</a</li>
+                                <li><a href="#">Italy News</a></li>
 																<li><a href="#">Germany News</a></li>
                                 <li><a href="#">Rest of Europe</a></li>
                                 <li><a href="#">ISL News</a></li>
@@ -93,6 +94,7 @@
     <!-- end of navbar -->
 
     <div class="container">
+				<div class="col-sm-12">
         <div class="carousel slide row" id="myCarousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -106,8 +108,6 @@
                 <div class="item active" id="slide1">
                     <img src="./images/cover1.jpg" class="img-responsive" alt="cover1">
                     <div class="carousel-caption">
-                        <!--<h4>Bootstrap 3</h4>
-						<p>Learn how to build your first responsive website with the brand new Twitter Bootstrap 3!</p> -->
                     </div>
                     <!-- end carousel-caption-->
                 </div>
@@ -116,8 +116,7 @@
                 <div class="item" id="slide2">
                     <img src="./images/cover2.jpg" class="img-responsive" alt="cover2">
                     <div class="carousel-caption">
-                        <!-- <h4>Learn to code a website in 4-hours!</h4>
-						<p>PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousands of aspiring web designers launch their web design career.</p> -->
+
                     </div>
                     <!-- end carousel-caption-->
                 </div>
@@ -126,8 +125,7 @@
                 <div class="item" id="slide3">
                     <img src="./images/cover3.jpg" class="img-responsive" alt="cover3">
                     <div class="carousel-caption">
-                        <!-- <h4>Web Hosting 101</h4>
-						<p>Learn how to buy a perfect domain name and hosting package, and get your website live on the web with ease.</p> -->
+
                     </div>
                     <!-- end carousel-caption-->
                 </div>
@@ -140,14 +138,16 @@
             <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 
         </div>
+			</div>
+
         <!-- end of myCarousel -->
     </div>
     <!-- end of the container -->
 
     <div class="container">
         <div class="row" id="bigCallout">
-            <div class="col-12">
-                <a href="" class="btn btn-large btn-primary btn-block" id="alertMe">Subscribe Our Channel</a>
+            <div class="col-sm-12">
+								<a href="" class="btn btn-large btn-primary btn-block" id="alertMe">Subscribe Our Channel</a>
                 <div class="alert alert-success alert-block fade in" id="successAlert">
                     <button type="button" class="close" data-hide="alert">&times;</button>
 
@@ -179,8 +179,8 @@
 
     <div class="container latestnews">
         <div class="row" id="featuresHeading">
-            <div class="col-12">
-                <h2>Latest News And Happenings Around Football</h2>
+            <div class="col-sm-12">
+                <h2 id="header2">Latest News And Happenings Around Football</h2>
                 <p class="lead">Football news, gossip, live scores, fixtures, betting and more.</p>
             </div>
             <!-- end col-12 -->
@@ -211,7 +211,7 @@
                     <!-- end panel-heading -->
                     <img src="./images/foot2.jpg" class="img-responsive" alt="fixtures">
 
-                    <p>Real Madrid are preparing a move for Alexis Sanchez as a worthy replacement for Cristiano Ronaldo. Madrid are also wary of letting Sanchez join up with Pep Guardiola at Manchester United.</p>
+                    <p>Real Madrid are preparing a move for Alexis Sanchez as a worthy replacement for CR7 also wary of letting Sanchez join up with Pep Guardiola at Manchester United.</p>
 
                     <a href="http://www.skysports.com/football" target="_blank" class="btn btn-danger btn-block">Fixture Details</a>
                 </div>
@@ -241,13 +241,13 @@
 
     <div class="container highlights">
         <hr></hr>
-        <div class="col-12">
-            <h2>Full Match Analysis</h2>
+        <div class="col-sm-12">
+            <h2 >Full Match Analysis</h2>
             <h4 id="black">We provide soccer analysis for punters through live score, soccer tips, head-to-head (h2h) statistics, tipsters competition, match stats and odds comparison</h4>
             <hr></hr>
         </div>
 
-        <div class="col-12" id="margin">
+        <div class="col-sm-12" id="margin">
             <img class="img-responsive center-block" src="./images/match.gif" alt="goal">
         </div>
 
@@ -256,7 +256,7 @@
     <!-- end of highlights container -->
 
     <div class="container tabs-content">
-        <div class="col-12">
+        <div class="col-sm-12">
             <h1>Paper Talks And Transfer Rumours</h1>
             <hr></hr>
         </div>
@@ -272,11 +272,11 @@
                 <div class="tab-pane active" id="tab1">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6 pull-left">
+                            <div class="col-sm-6 pull-left">
                                 <img src="./images/transfer5.jpg" class="img-responsive center-block" alt="transfernews">
                             </div>
                             <!-- end of col-6 -->
-                            <div class="col-lg-6 pull-right" id="para">
+                            <div class="col-sm-6 pull-right" id="para">
                                 <p>
                                     Real Madrid step up Lewandowski interest. Klopp to move for Grosskreutz in January. Valencia urged to buy Vardy by Gary Neville. Man Utd start £50m Kane hunt Southampton wants Brozovic. PSG will sell Cavani to Manchester United for £32m. Arsenal ponder move for Oxford. Liverpool raise interest in Icardi. Moyes to turn down any Swansea offer. Cazorla could miss rest of season. Man Utd to open LVG talks next year Mourinho to be sacked if Chelsea lose to Porto. Guardiola will wait until 2017 for Man Utd. Xabi could return to Real Madrid.
                                 </p>
@@ -295,7 +295,7 @@
                 <div class="tab-pane" id="tab2">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6 pull-left" id="para">
+                            <div class="col-sm-6 pull-left" id="para">
                                 <p>
                                     Real Madrid step up Lewandowski interest. Klopp to move for Grosskreutz in January. Valencia urged to buy Vardy by Gary Neville. Man Utd start £50m Kane hunt Southampton wants Brozovic. PSG will sell Cavani to Manchester United for £32m. Arsenal ponder move for Oxford. Liverpool raise interest in Icardi. Moyes to turn down any Swansea offer. Cazorla could miss rest of season. Man Utd to open LVG talks next year Mourinho to be sacked if Chelsea lose to Porto. Guardiola will wait until 2017 for Man Utd. Xabi could return to Real Madrid.
                                 </p>
@@ -304,7 +304,7 @@
                                 </p>
                             </div>
                             <!-- end of col-6 -->
-                            <div class="col-lg-6 pull-right">
+                            <div class="col-sm-6 pull-right">
                                 <img src="./images/papertalk.jpg" class="img-responsive center-block" alt="papertalk">
                             </div>
                             <!-- end of col-6 -->
@@ -426,61 +426,6 @@
         <!--end of third row -->
     </div>
     <!-- end of Container thumb -->
-
-    <div class="modal fade" id="signupModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button class="close" data-dismiss="modal">&times;</button>
-
-                    <h3 class="modal-title">Register Here</h3>
-                </div>
-                <!-- end modal-header -->
-                <div class="modal-body">
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <label class="col-lg-2 control-label" for="inputName">Name</label>
-                            <div class="col-lg-10">
-                                <input class="form-control" id="inputName" placeholder="Name" type="text">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-lg-2 control-label" for="inputEmail">Email</label>
-                            <div class="col-lg-10">
-                                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-lg-2 control-label" for="inputMessage">Password</label>
-                            <div class="col-lg-10">
-                                <input type="password" class="form-control" id="inputMessage"></input>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-2 control-label" for="inputMessage">Confirm Password</label>
-                            <div class="col-lg-10">
-                                <input type="password" class="form-control" id="inputMessage"></input>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <!-- end modal-body -->
-
-                <div class="modal-footer">
-                    <button class="btn btn-warning" data-dismiss="modal" type="button">Close</button>
-                    <button class="btn btn-primary" data-dismiss="modal" type="button">Submit</button>
-                </div>
-                <!-- end modal-footer -->
-            </div>
-            <!-- end modal-content -->
-        </div>
-        <!-- end modal-dialog -->
-    </div>
-    <!-- end myModal -->
-
     <footer>
         <div class="container-fluid footercon">
             <div class="container">
@@ -550,9 +495,9 @@
                 </div>
                 <!-- end of row -->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-sm-12">
                         <hr></hr>
-                        <span>Copyright 2015 Goal.com All rights reserved. The information contained in Goal.com may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal.com</span>
+                        <span>Copyright &copy; 2015 Goal.com All rights reserved. The information contained in Goal.com may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal.com</span>
                     </div>
                 </div>
                 <!-- end of row -->
@@ -560,6 +505,61 @@
         </div>
         <!--end of container -fluid -->
     </footer>
+
+
+		    <div class="modal fade" id="signupModal">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-header">
+		                    <button class="close" data-dismiss="modal">&times;</button>
+
+		                    <h3 class="modal-title">Register Here</h3>
+		                </div>
+		                <!-- end modal-header -->
+		                <div class="modal-body">
+
+		                    <form class="form-horizontal">
+		                        <div class="form-group">
+		                            <label class="col-sm-2 control-label" for="inputName">Name</label>
+		                            <div class="col-sm-10">
+		                                <input class="form-control" id="inputName" placeholder="Name" type="text">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <label class="col-sm-2 control-label" for="inputEmail">Email</label>
+		                            <div class="col-sm-10">
+		                                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <label class="col-sm-2 control-label" for="inputMessage">Password</label>
+		                            <div class="col-sm-10">
+		                                <input type="password" class="form-control" id="inputMessage"></input>
+		                            </div>
+		                        </div>
+		                        <div class="form-group">
+		                            <label class="col-sm-2 control-label" for="inputMessage">Confirm Password</label>
+		                            <div class="col-sm-10">
+		                                <input type="password" class="form-control" id="inputMessage"></input>
+		                            </div>
+		                        </div>
+		                    </form>
+		                </div>
+		                <!-- end modal-body -->
+
+		                <div class="modal-footer">
+		                    <button class="btn btn-warning" data-dismiss="modal" type="button">Close</button>
+		                    <button class="btn btn-primary" data-dismiss="modal" type="button">Submit</button>
+		                </div>
+		                <!-- end modal-footer -->
+		            </div>
+		            <!-- end modal-content -->
+		        </div>
+		        <!-- end modal-dialog -->
+		    </div>
+		    <!-- end myModal -->
 
 
     <!-- All Javascript at the bottom of the page for faster page loading -->
